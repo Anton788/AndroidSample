@@ -14,8 +14,8 @@ import java.lang.ref.WeakReference
 class StudentCardFragment : Fragment() {
 
     companion object {
-        const val FIRST_NAME : String = "firstname_default"
-        const val LAST_NAME : String = "lastname_default"
+        const val FIRST_NAME : String ="firstname_default"
+        const val LAST_NAME : String ="lastname_default"
 
         fun newInstance(student:Student): StudentCardFragment = StudentCardFragment().apply {
             arguments = Bundle().apply {
